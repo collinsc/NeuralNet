@@ -1,11 +1,5 @@
-function [W1,b1,W2,b2] = conjugateTrain(P,T,W1,b1,W2,b2, batchCount,isPlot)
-%count of elements in training set
-Q = size(P,2);
-%performance preallocation
-gW1 = zeros(size(W1));    gb1 = zeros(size(b1));
-gW2 = zeros(size(W2));    gb2 = zeros(size(b2));
-gW1n = zeros(size(W1));   gb1n = zeros(size(b1));
-gW2n = zeros(size(W2));   gb2n = zeros(size(b2));
+function [W1,b1,W2,b2, gW1,gb1, gW2, gb2, iteration] = ...
+    conjugateTrain(P,T,W1,b1,W2,b2, gW1, gb1, gW2, gb2, iteration, batchCount,isPlot)
 %important constants for training
 epsilon = 0.66;         %rate to increase search interval
 startingRate =  0;     %minimum jump
@@ -19,16 +13,6 @@ if isPlot   %data visualization only
     outIdx = 0;
     yError(1:(batchCount)) = 0;
     yRate(1:(batchCount)) = 0;
-end
-
-%initialize gradients for first iteration
-for j = 1:Q
-    [gW1t, gb1t, gW2t, gb2t] = getGradients(    W1, b1, ...
-                                                W2, b2, ... 
-                                                P(:,j),T(:,j));
-    %accumulate an average gradient
-    gW1 = gW1 + gW1t/Q;     gb1 = gb1 + gb1t/Q;
-    gW2 = gW2 + gW2t/Q;     gb2 = gb2 + gb2t/Q;
 end
 %initialize search directions with normalized gradients
 pW1 = -gW1;    pb1 = -gb1; 
@@ -64,17 +48,10 @@ for i = 2:batchCount
         yError(outIdx) = e_old;
         yRate(outIdx) = rate;
     end
-    %get new gradients
-    for j = 1:Q
-        [gW1nt, gb1nt, gW2nt, gb2nt] = getGradients(        W1, b1, ...
-                                                            W2, b2, ... 
-                                                            P(:,j),T(:,j));                                           
-
-        gW1n = gW1n + gW1nt/Q;     gb1n = gb1n + gb1nt/Q;
-        gW2n = gW2n + gW2nt/Q;     gb2n = gb2n + gb2nt/Q;
-    end
+    [gW1n, gb1n, gW2n, gb2n] = accumulateGradients( W1, b1, W2, b2, P, T );
+    iteration = iteration +1;
     %get directional gain
-    if mod(i,resetPeriod) == 0
+    if mod(iteration, resetPeriod) == 0
         bW1 = 0;    bb1 = 0;
         bW2 = 0;    bb2 = 0;
     else

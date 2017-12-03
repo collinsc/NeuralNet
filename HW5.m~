@@ -9,27 +9,30 @@ disp('    loading labels')
 T_o = formatOutput(loadMNISTLabels('./data/train-labels-idx1-ubyte'));
 disp('    getting sets')
 %get an order of samples for the batches
-batchSize = 200;
+batchSize = 256;
 epochs = 5;
 idx = randperm(size(P_o,2));
-iteration = 0;
+P1 = zeros(size(P_o,1), batchSize);
+T1 = zeros(size(T_o,1), batchSize);
 disp('    generating weights')
-h1 = 500;     %neurons in hidden layer 1
+h1 = 400;     %neurons in hidden layer 1
 [W1,b1,W2,b2] = getWeights(P_o,T_o, h1);
 cW1 = W1; cb1 = b1; cW2 = W2; cb2 = b2;
 vW1 = W1; vb1 = b1; vW2 = W2; vb2 = b2;
 disp('    generating initial gradient')
-P1 = P_o(:,1:(1+batchSize)-1);
-T1 = T_o(:,1:(1+batchSize)-1);
+P1 = P_o(:,i:(i+batchSize)-1);
+T1 = T_o(:,i:(i+batchSize)-1);
+
 %get initial gradient
-[gW1, gb1, gW2, gb2] = accumulateGradients(W1, b1, W2, b2, P1, T1);
+[gW1, gb1, gW2, gb2] = accumulateGradients(W1, b1, W2, b2, P_o, T_o);
 disp('Training:')
 count = 0;
-for batch = batchSize:batchSize:size(P_o,2)   %for each mini batch
+for batch = 2:batchSize:size(P_o,2)   %for each mini batch
+
     %train on each strategy
     [cW1, cb1, cW2, cb2, gW1, gb1, gW2, gb2, iteration] = ...
         conjugateTrain( ...
-                        P1,T1, ...
+                        P,T, ...
                         cW1, cb1, cW2, cb2, ...
                         gW1, gb1, gW2, gb2, ...
                         iteration, epochs, true);
