@@ -7,7 +7,7 @@ gW2 = zeros(size(W2));    gb2 = zeros(size(b2));
 gW1n = zeros(size(W1));   gb1n = zeros(size(b1));
 gW2n = zeros(size(W2));   gb2n = zeros(size(b2));
 %important constants for training
-epsilon = 0.5;         %rate to increase search interval
+epsilon = 0.66;         %rate to increase search interval
 startingRate =  0;     %minimum jump
 %reset search direction every n iterations
 R = size(P,1);
@@ -31,8 +31,8 @@ for j = 1:Q
     gW2 = gW2 + gW2t/Q;     gb2 = gb2 + gb2t/Q;
 end
 %initialize search directions with normalized gradients
-pW1 = -normalize(gW1);    pb1 = -normalize(gb1); 
-pW2 = -normalize(gW2);    pb2 = -normalize(gb2);
+pW1 = -gW1;    pb1 = -gb1; 
+pW2 = -gW2;    pb2 = -gb2;
 for i = 2:batchCount
     %select an interval to minimize
     [a, b] = getInterval( @(rate) perfIndex(    W1 + rate*pW1, ...
@@ -87,29 +87,29 @@ for i = 2:batchCount
     pW1n = -gW1n + pW1*bW1;    pb1n = -gb1n + pb1*bb1;
     pW2n = -gW2n + pW2*bW2;    pb2n = -gb2n + pb2*bb2;
     %transfer over old values
-    pW1 = normalize(pW1n);          pb1 = normalize(pb1n);
-    pW2 = normalize(pW2n);          pb2 = normalize(pb2n);
+    pW1 = pW1n;          pb1 = pb1n;
+    pW2 = pW2n;          pb2 = pb2n;
     gW1 = gW1n;          gb1 = gb1n;
     gW2 = gW2n;          gb2 = gb2n;
 
 end
 if isPlot
-    figure()
-    hold on
-    title('Iterations v. Performance Index')
-    xlabel('Iterations')
-    ylabel('Performance Index')
-    numItr = 1:size(yError,2);
-    plot(numItr(:,1:outIdx), yError(:,1:outIdx))
-    hold off
-    figure()
-    hold on
-    title('Iterations v. LearningRate')
-    xlabel('Iterations')
-    ylabel('LearningRate')
-    numItr = 1:size(yError,2);
-    plot(numItr(:,1:outIdx), yRate(:,1:outIdx))
-    hold off
+%    figure()
+%     hold on
+%     title('Iterations v. Performance Index')
+%     xlabel('Iterations')
+%     ylabel('Performance Index')
+%     numItr = 1:size(yError,2);
+%     plot(numItr(:,1:outIdx), yError(:,1:outIdx))
+%     hold off
+%     figure()
+%     hold on
+%     title('Iterations v. LearningRate')
+%     xlabel('Iterations')
+%     ylabel('LearningRate')
+%     numItr = 1:size(yError,2);
+%     plot(numItr(:,1:outIdx), yRate(:,1:outIdx))
+%     hold off
 end
 end
 
