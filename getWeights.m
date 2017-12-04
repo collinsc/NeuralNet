@@ -4,7 +4,7 @@ S1 = h1;
 S2 = size(T,1);
 %get randomized weights and biases
 maxMag = 0.5;
-minMag = 0.4;
+minMag = 0.2;
 
 W1 = rangedRand(minMag, maxMag, S1, R);
 b1 = rangedRand(minMag, maxMag, S1, 1);

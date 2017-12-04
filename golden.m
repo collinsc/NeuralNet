@@ -1,11 +1,11 @@
 function out = golden(f,a, b)
 tau = 0.618;
-tol = 0.0005;
+tol = 0.005;
 c = a + (1 - tau)*(b - a);
 f_c = f(c);
 d = b - (1 - tau)*(b - a);
 f_d = f(d);
-while b - a > tol
+while abs(b - a) > tol
     %debugging
     %fprintf('a %f b %f c %f d %f f_c %f, f_d %f\n', a, b,c, d, f_c,f_d)
     if (f_c < f_d)
