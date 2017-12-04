@@ -32,7 +32,7 @@ for i = 1:epochs
     idx = randperm(size(P_o,2));
     P1 = P_o(:,idx(1:(1+batchSize)-1));
     T1 = T_o(:,idx(1:(1+batchSize)-1));
-    for batch = 2:batchSize:size(P_o,2)   %for each mini batch
+    for batch = batchSize:batchSize:size(P_o,2)   %for each mini batch
         %train on each strategy
         [ cW1, cb1,  cW2,  cb2, ...
            pW1,pb1, pW2, pb2, ...
