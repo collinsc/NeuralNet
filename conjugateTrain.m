@@ -1,8 +1,8 @@
 function [W1,b1,W2,b2, gW1,gb1, gW2, gb2, iteration] = ...
     conjugateTrain(P,T,W1,b1,W2,b2, gW1, gb1, gW2, gb2, iteration, batchCount,isPlot)
 %important constants for training
-epsilon = 0.66;         %rate to increase search interval
-startingRate =  0;     %minimum jump
+epsilon = 0.001;         %rate to increase search interval
+startingRate =  0.0;     %minimum jump
 %reset search direction every n iterations
 R = size(P,1);
 s1 = size(W1,1);
@@ -17,7 +17,7 @@ end
 %initialize search directions with normalized gradients
 pW1 = -gW1;    pb1 = -gb1; 
 pW2 = -gW2;    pb2 = -gb2;
-for i = 2:batchCount
+for i = 1:batchCount
     %select an interval to minimize
     [a, b] = getInterval( @(rate) perfIndex(    W1 + rate*pW1, ...
                                     b1 + rate*pb1, ...
