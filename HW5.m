@@ -30,9 +30,10 @@ disp('Training:')
 count = 0;
 for i = 1:epochs
     idx = randperm(size(P_o,2));
-    P1 = P_o(:,idx(1:(1+batchSize)-1));
-    T1 = T_o(:,idx(1:(1+batchSize)-1));
-    for batch = batchSize:batchSize:size(P_o,2)   %for each mini batch
+
+    for batch = 1:batchSize:size(P_o,2)   %for each mini batch
+        P1 = P_o(:,idx(batch:(batch+batchSize)-1));
+        T1 = T_o(:,idx(batch:(batch+batchSize)-1));
         %train on each strategy
         [ cW1, cb1,  cW2,  cb2, ...
            pW1,pb1, pW2, pb2, ...
@@ -54,9 +55,6 @@ for i = 1:epochs
         err2 = getPercError(evaluate2,P1,T1);
         count = count +1;
         fprintf('    batch %i\n\tconjugate error percent: %f\n\tvanilla error percent: %f\n', count,err1,err2);
-        %grab a batch
-        P1 = P_o(:,idx(batch:((batch+batchSize)-1)));
-        T1 = T_o(:,idx(batch:((batch+batchSize)-1)));
     end
 end
 %evaluate network performance
