@@ -20,8 +20,6 @@ for i = 1:max_itr
             a = old;
             break
         end
-        a = b;
-        f_a = f_b;
     else
         dec = true;
         old = a;
@@ -29,6 +27,7 @@ for i = 1:max_itr
         f_a = f_b;
     end
     int = int *2;
+
 
 end
 

@@ -6,24 +6,24 @@ function [ W1, b1,  W2,  b2, ...
                                         W1, b1, W2, b2, ...
                                         pW1, pb1, pW2, pb2, ...
                                         gW1,gb1, gW2, gb2, ...
-                                        iteration, batchCount, isPlot)
+                                        iteration, batchCount, isGraph)
 %important constants for training
-epsilon = 0.01;         %rate to increase search interval
-startingRate =  0;     %minimum jump
+
+epsilon = 0.001;         %rate to increase search interval
+startingRate =  0.0;     %minimum jump
 %reset search direction every n iterations
 R = size(P,1);
 s1 = size(W1,1);
 s2 = size(W2,1);
 resetPeriod = R*s2 + s2 + s2*s1 + s1;  
 e_old = inf;
-if isPlot   %data visualization only
+if isGraph   
     outIdx = 0;
     yError(1:(batchCount)) = 0;
     yRate(1:(batchCount)) = 0;
 end
 %initialize search directions with normalized gradients
-
-for i = 2:batchCount
+for i = 1:batchCount
     %select an interval to minimize
     [a, b] = getInterval( @(rate) perfIndex(    W1 + rate*pW1, ...
                                     b1 + rate*pb1, ...
@@ -48,7 +48,7 @@ for i = 2:batchCount
     %conjugate gradient weight update
     W1 = W1 + rate*pW1;     b1 = b1 + rate*pb1;
     W2 = W2 + rate*pW2;     b2 = b2 + rate*pb2;
-    if isPlot
+    if isGraph
         fprintf('\titeration: %i,    performance index: %f,    learning rate: %f\n', outIdx, e_old, rate)
         outIdx = outIdx + 1; 
         yError(outIdx) = e_old;
@@ -76,7 +76,7 @@ for i = 2:batchCount
     gW2 = gW2n;          gb2 = gb2n;
 
 end
-if isPlot
+if isGraph
 %    figure()
 %     hold on
 %     title('Iterations v. Performance Index')
