@@ -6,8 +6,6 @@ f_c = f(c);
 d = b - (1 - tau)*(b - a);
 f_d = f(d);
 while abs(b - a) > tol
-    %debugging
-    %fprintf('a %f b %f c %f d %f f_c %f, f_d %f\n', a, b,c, d, f_c,f_d)
     if (f_c < f_d)
         b = d;
         d = c;

@@ -14,7 +14,6 @@ for i = 1:max_itr
       a = old;
       break
     end
-
     if f_a <= f_b
         if dec
             a = old;
@@ -27,8 +26,5 @@ for i = 1:max_itr
         f_a = f_b;
     end
     int = int *2;
-
-
 end
-
 end
