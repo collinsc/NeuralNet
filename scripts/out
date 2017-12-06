@@ -1,0 +1,1216 @@
+
+ad Training Set :
+    loading images
+    loading labels
+    getting sets
+    generating weights
+    generating initial gradient
+Training:
+	iteration: 0,    performance index: 0.057571,    learning rate: 0.444942
+    batch 1
+	conjugate error percent: 99.333333
+	vanilla error percent: 78.333333
+	iteration: 0,    performance index: 0.051857,    learning rate: 0.065625
+    batch 2
+	conjugate error percent: 99.666667
+	vanilla error percent: 66.666667
+	iteration: 0,    performance index: 0.050904,    learning rate: 0.017189
+    batch 3
+	conjugate error percent: 99.666667
+	vanilla error percent: 50.000000
+	iteration: 0,    performance index: 0.057312,    learning rate: 0.013177
+    batch 4
+	conjugate error percent: 99.166667
+	vanilla error percent: 39.833333
+	iteration: 0,    performance index: 0.056296,    learning rate: 0.000000
+    batch 5
+	conjugate error percent: 100.000000
+	vanilla error percent: 42.666667
+	iteration: 0,    performance index: 0.049038,    learning rate: 0.000000
+    batch 6
+	conjugate error percent: 98.666667
+	vanilla error percent: 46.666667
+	iteration: 0,    performance index: 0.057908,    learning rate: 0.004374
+    batch 7
+	conjugate error percent: 99.833333
+	vanilla error percent: 37.000000
+	iteration: 0,    performance index: 0.049603,    learning rate: 0.000000
+    batch 8
+	conjugate error percent: 99.000000
+	vanilla error percent: 35.833333
+	iteration: 0,    performance index: 0.054508,    learning rate: 0.001876
+    batch 9
+	conjugate error percent: 99.666667
+	vanilla error percent: 27.333333
+	iteration: 0,    performance index: 0.056279,    learning rate: 0.000000
+    batch 10
+	conjugate error percent: 99.333333
+	vanilla error percent: 26.166667
+	iteration: 0,    performance index: 0.052190,    learning rate: 0.000000
+    batch 11
+	conjugate error percent: 100.000000
+	vanilla error percent: 24.166667
+	iteration: 0,    performance index: 0.052072,    learning rate: 0.000979
+    batch 12
+	conjugate error percent: 99.666667
+	vanilla error percent: 20.500000
+	iteration: 0,    performance index: 0.054387,    learning rate: 0.000000
+    batch 13
+	conjugate error percent: 99.500000
+	vanilla error percent: 21.000000
+	iteration: 0,    performance index: 0.053383,    learning rate: 0.000000
+    batch 14
+	conjugate error percent: 99.833333
+	vanilla error percent: 17.666667
+	iteration: 0,    performance index: 0.055024,    learning rate: 0.000000
+    batch 15
+	conjugate error percent: 99.833333
+	vanilla error percent: 16.500000
+	iteration: 0,    performance index: 0.051302,    learning rate: 0.000000
+    batch 16
+	conjugate error percent: 99.500000
+	vanilla error percent: 13.666667
+	iteration: 0,    performance index: 0.055397,    learning rate: 0.000000
+    batch 17
+	conjugate error percent: 99.166667
+	vanilla error percent: 16.166667
+	iteration: 0,    performance index: 0.056826,    learning rate: 0.000000
+    batch 18
+	conjugate error percent: 99.166667
+	vanilla error percent: 14.666667
+	iteration: 0,    performance index: 0.055573,    learning rate: 0.000000
+    batch 19
+	conjugate error percent: 100.000000
+	vanilla error percent: 13.833333
+	iteration: 0,    performance index: 0.056463,    learning rate: 0.000000
+    batch 20
+	conjugate error percent: 99.333333
+	vanilla error percent: 13.500000
+	iteration: 0,    performance index: 0.055519,    learning rate: 0.000000
+    batch 21
+	conjugate error percent: 99.500000
+	vanilla error percent: 16.500000
+	iteration: 0,    performance index: 0.052697,    learning rate: 0.000000
+    batch 22
+	conjugate error percent: 99.500000
+	vanilla error percent: 11.833333
+	iteration: 0,    performance index: 0.054915,    learning rate: 0.000000
+    batch 23
+	conjugate error percent: 99.833333
+	vanilla error percent: 14.166667
+	iteration: 0,    performance index: 0.053252,    learning rate: 0.000000
+    batch 24
+	conjugate error percent: 99.500000
+	vanilla error percent: 10.333333
+	iteration: 0,    performance index: 0.055397,    learning rate: 0.000000
+    batch 25
+	conjugate error percent: 99.333333
+	vanilla error percent: 13.166667
+	iteration: 0,    performance index: 0.051918,    learning rate: 0.000000
+    batch 26
+	conjugate error percent: 99.833333
+	vanilla error percent: 16.333333
+	iteration: 0,    performance index: 0.055402,    learning rate: 0.000000
+    batch 27
+	conjugate error percent: 99.666667
+	vanilla error percent: 15.500000
+	iteration: 0,    performance index: 0.051228,    learning rate: 0.000000
+    batch 28
+	conjugate error percent: 99.500000
+	vanilla error percent: 14.000000
+	iteration: 0,    performance index: 0.053414,    learning rate: 0.000000
+    batch 29
+	conjugate error percent: 99.500000
+	vanilla error percent: 13.500000
+	iteration: 0,    performance index: 0.056300,    learning rate: 0.000000
+    batch 30
+	conjugate error percent: 100.000000
+	vanilla error percent: 12.166667
+	iteration: 0,    performance index: 0.054730,    learning rate: 0.000000
+    batch 31
+	conjugate error percent: 99.666667
+	vanilla error percent: 11.500000
+	iteration: 0,    performance index: 0.052190,    learning rate: 0.000000
+    batch 32
+	conjugate error percent: 99.833333
+	vanilla error percent: 10.500000
+	iteration: 0,    performance index: 0.055655,    learning rate: 0.000000
+    batch 33
+	conjugate error percent: 99.333333
+	vanilla error percent: 13.666667
+	iteration: 0,    performance index: 0.057106,    learning rate: 0.000000
+    batch 34
+	conjugate error percent: 99.500000
+	vanilla error percent: 11.500000
+	iteration: 0,    performance index: 0.050329,    learning rate: 0.000000
+    batch 35
+	conjugate error percent: 99.833333
+	vanilla error percent: 13.166667
+	iteration: 0,    performance index: 0.054268,    learning rate: 0.000000
+    batch 36
+	conjugate error percent: 99.666667
+	vanilla error percent: 9.166667
+	iteration: 0,    performance index: 0.050056,    learning rate: 0.000000
+    batch 37
+	conjugate error percent: 99.666667
+	vanilla error percent: 14.000000
+	iteration: 0,    performance index: 0.054054,    learning rate: 0.000000
+    batch 38
+	conjugate error percent: 99.833333
+	vanilla error percent: 14.666667
+	iteration: 0,    performance index: 0.082782,    learning rate: 0.511624
+    batch 39
+	conjugate error percent: 98.500000
+	vanilla error percent: 13.666667
+	iteration: 0,    performance index: 0.082452,    learning rate: 1.023000
+    batch 40
+	conjugate error percent: 98.166667
+	vanilla error percent: 10.000000
+	iteration: 0,    performance index: 0.080863,    learning rate: 1.023000
+    batch 41
+	conjugate error percent: 96.666667
+	vanilla error percent: 10.833333
+	iteration: 0,    performance index: 0.081479,    learning rate: 0.065625
+    batch 42
+	conjugate error percent: 95.833333
+	vanilla error percent: 10.000000
+	iteration: 0,    performance index: 0.080909,    learning rate: 0.002210
+    batch 43
+	conjugate error percent: 93.333333
+	vanilla error percent: 6.833333
+	iteration: 0,    performance index: 0.072512,    learning rate: 0.031050
+    batch 44
+	conjugate error percent: 92.333333
+	vanilla error percent: 14.666667
+	iteration: 0,    performance index: 0.075786,    learning rate: 0.000000
+    batch 45
+	conjugate error percent: 93.500000
+	vanilla error percent: 11.833333
+	iteration: 0,    performance index: 0.081139,    learning rate: 0.000000
+    batch 46
+	conjugate error percent: 93.500000
+	vanilla error percent: 12.500000
+	iteration: 0,    performance index: 0.084352,    learning rate: 0.000000
+    batch 47
+	conjugate error percent: 92.333333
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.080519,    learning rate: 0.000000
+    batch 48
+	conjugate error percent: 93.000000
+	vanilla error percent: 9.000000
+	iteration: 0,    performance index: 0.082203,    learning rate: 0.005420
+    batch 49
+	conjugate error percent: 93.500000
+	vanilla error percent: 9.833333
+	iteration: 0,    performance index: 0.080502,    learning rate: 0.006502
+    batch 50
+	conjugate error percent: 94.166667
+	vanilla error percent: 9.000000
+	iteration: 0,    performance index: 0.077176,    learning rate: 0.000000
+    batch 51
+	conjugate error percent: 94.500000
+	vanilla error percent: 8.833333
+	iteration: 0,    performance index: 0.082443,    learning rate: 0.006088
+    batch 52
+	conjugate error percent: 94.000000
+	vanilla error percent: 10.166667
+	iteration: 0,    performance index: 0.081466,    learning rate: 0.016483
+    batch 53
+	conjugate error percent: 93.333333
+	vanilla error percent: 13.000000
+	iteration: 0,    performance index: 0.077385,    learning rate: 0.143176
+    batch 54
+	conjugate error percent: 86.666667
+	vanilla error percent: 12.833333
+	iteration: 0,    performance index: 0.068512,    learning rate: 0.033336
+    batch 55
+	conjugate error percent: 80.666667
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.070913,    learning rate: 0.002416
+    batch 56
+	conjugate error percent: 82.833333
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.073640,    learning rate: 0.004708
+    batch 57
+	conjugate error percent: 79.666667
+	vanilla error percent: 9.166667
+	iteration: 0,    performance index: 0.078974,    learning rate: 0.002623
+    batch 58
+	conjugate error percent: 84.500000
+	vanilla error percent: 9.833333
+	iteration: 0,    performance index: 0.072934,    learning rate: 0.002416
+    batch 59
+	conjugate error percent: 79.166667
+	vanilla error percent: 10.000000
+	iteration: 0,    performance index: 0.066013,    learning rate: 0.008921
+    batch 60
+	conjugate error percent: 80.833333
+	vanilla error percent: 6.666667
+	iteration: 0,    performance index: 0.075454,    learning rate: 0.000708
+    batch 61
+	conjugate error percent: 80.500000
+	vanilla error percent: 9.000000
+	iteration: 0,    performance index: 0.085681,    learning rate: 0.002751
+    batch 62
+	conjugate error percent: 82.500000
+	vanilla error percent: 10.000000
+	iteration: 0,    performance index: 0.082671,    learning rate: 0.002957
+    batch 63
+	conjugate error percent: 84.166667
+	vanilla error percent: 11.166667
+	iteration: 0,    performance index: 0.079167,    learning rate: 0.000000
+    batch 64
+	conjugate error percent: 82.666667
+	vanilla error percent: 11.000000
+	iteration: 0,    performance index: 0.070095,    learning rate: 0.002957
+    batch 65
+	conjugate error percent: 80.333333
+	vanilla error percent: 9.333333
+	iteration: 0,    performance index: 0.084061,    learning rate: 0.006088
+    batch 66
+	conjugate error percent: 79.833333
+	vanilla error percent: 10.500000
+	iteration: 0,    performance index: 0.072172,    learning rate: 0.000000
+    batch 67
+	conjugate error percent: 78.166667
+	vanilla error percent: 9.833333
+	iteration: 0,    performance index: 0.079173,    learning rate: 0.000232
+    batch 68
+	conjugate error percent: 81.333333
+	vanilla error percent: 7.166667
+	iteration: 0,    performance index: 0.075298,    learning rate: 0.001416
+    batch 69
+	conjugate error percent: 79.666667
+	vanilla error percent: 9.166667
+	iteration: 0,    performance index: 0.073187,    learning rate: 0.004502
+    batch 70
+	conjugate error percent: 80.333333
+	vanilla error percent: 10.166667
+	iteration: 0,    performance index: 0.071938,    learning rate: 0.000000
+    batch 71
+	conjugate error percent: 79.833333
+	vanilla error percent: 7.833333
+	iteration: 0,    performance index: 0.074193,    learning rate: 0.007328
+    batch 72
+	conjugate error percent: 80.833333
+	vanilla error percent: 6.666667
+	iteration: 0,    performance index: 0.066771,    learning rate: 0.000000
+    batch 73
+	conjugate error percent: 79.166667
+	vanilla error percent: 9.500000
+	iteration: 0,    performance index: 0.078540,    learning rate: 0.009079
+    batch 74
+	conjugate error percent: 83.000000
+	vanilla error percent: 7.833333
+	iteration: 0,    performance index: 0.077800,    learning rate: 0.002082
+    batch 75
+	conjugate error percent: 81.333333
+	vanilla error percent: 13.166667
+	iteration: 0,    performance index: 0.080458,    learning rate: 0.005164
+    batch 76
+	conjugate error percent: 83.000000
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.072908,    learning rate: 0.006246
+    batch 77
+	conjugate error percent: 82.333333
+	vanilla error percent: 8.000000
+	iteration: 0,    performance index: 0.065478,    learning rate: 0.000000
+    batch 78
+	conjugate error percent: 81.500000
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.070128,    learning rate: 0.010818
+    batch 79
+	conjugate error percent: 83.666667
+	vanilla error percent: 9.833333
+	iteration: 0,    performance index: 0.064693,    learning rate: 0.002957
+    batch 80
+	conjugate error percent: 82.333333
+	vanilla error percent: 10.333333
+	iteration: 0,    performance index: 0.074764,    learning rate: 0.004039
+    batch 81
+	conjugate error percent: 83.333333
+	vanilla error percent: 8.333333
+	iteration: 0,    performance index: 0.069261,    learning rate: 0.006757
+    batch 82
+	conjugate error percent: 82.500000
+	vanilla error percent: 8.166667
+	iteration: 0,    performance index: 0.075316,    learning rate: 0.000000
+    batch 83
+	conjugate error percent: 86.000000
+	vanilla error percent: 9.333333
+	iteration: 0,    performance index: 0.074054,    learning rate: 0.008253
+    batch 84
+	conjugate error percent: 83.333333
+	vanilla error percent: 9.833333
+	iteration: 0,    performance index: 0.068044,    learning rate: 0.041990
+    batch 85
+	conjugate error percent: 81.333333
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.071254,    learning rate: 0.000000
+    batch 86
+	conjugate error percent: 86.833333
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.070768,    learning rate: 0.131656
+    batch 87
+	conjugate error percent: 83.833333
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.070722,    learning rate: 0.026332
+    batch 88
+	conjugate error percent: 82.666667
+	vanilla error percent: 6.666667
+	iteration: 0,    performance index: 0.067767,    learning rate: 0.200576
+    batch 89
+	conjugate error percent: 82.166667
+	vanilla error percent: 7.833333
+	iteration: 0,    performance index: 0.069607,    learning rate: 0.015341
+    batch 90
+	conjugate error percent: 80.500000
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.065744,    learning rate: 1.023000
+    batch 91
+	conjugate error percent: 80.000000
+	vanilla error percent: 8.833333
+	iteration: 0,    performance index: 0.066656,    learning rate: 0.306374
+    batch 92
+	conjugate error percent: 80.833333
+	vanilla error percent: 9.166667
+	iteration: 0,    performance index: 0.062090,    learning rate: 0.161090
+    batch 93
+	conjugate error percent: 79.500000
+	vanilla error percent: 8.666667
+	iteration: 0,    performance index: 0.068537,    learning rate: 0.004502
+    batch 94
+	conjugate error percent: 78.500000
+	vanilla error percent: 8.166667
+	iteration: 0,    performance index: 0.063449,    learning rate: 0.000000
+    batch 95
+	conjugate error percent: 76.000000
+	vanilla error percent: 6.333333
+	iteration: 0,    performance index: 0.068771,    learning rate: 0.094898
+    batch 96
+	conjugate error percent: 80.333333
+	vanilla error percent: 5.833333
+	iteration: 0,    performance index: 0.071173,    learning rate: 0.020691
+    batch 97
+	conjugate error percent: 80.166667
+	vanilla error percent: 7.333333
+	iteration: 0,    performance index: 0.065167,    learning rate: 0.000000
+    batch 98
+	conjugate error percent: 81.333333
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.062974,    learning rate: 0.054445
+    batch 99
+	conjugate error percent: 78.833333
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.063928,    learning rate: 0.042622
+    batch 100
+	conjugate error percent: 78.666667
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.062428,    learning rate: 0.032554
+    batch 101
+	conjugate error percent: 78.666667
+	vanilla error percent: 8.166667
+	iteration: 0,    performance index: 0.063448,    learning rate: 0.232812
+    batch 102
+	conjugate error percent: 75.666667
+	vanilla error percent: 6.166667
+	iteration: 0,    performance index: 0.058435,    learning rate: 0.000000
+    batch 103
+	conjugate error percent: 77.833333
+	vanilla error percent: 6.833333
+	iteration: 0,    performance index: 0.067128,    learning rate: 0.058532
+    batch 104
+	conjugate error percent: 77.833333
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.060375,    learning rate: 0.014515
+    batch 105
+	conjugate error percent: 76.666667
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.073132,    learning rate: 0.008921
+    batch 106
+	conjugate error percent: 78.500000
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.065663,    learning rate: 0.015025
+    batch 107
+	conjugate error percent: 76.000000
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.060958,    learning rate: 0.000000
+    batch 108
+	conjugate error percent: 76.500000
+	vanilla error percent: 8.333333
+	iteration: 0,    performance index: 0.062866,    learning rate: 0.007328
+    batch 109
+	conjugate error percent: 77.000000
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.051685,    learning rate: 0.097032
+    batch 110
+	conjugate error percent: 72.500000
+	vanilla error percent: 7.500000
+	iteration: 0,    performance index: 0.068295,    learning rate: 0.000000
+    batch 111
+	conjugate error percent: 76.000000
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.056462,    learning rate: 0.014319
+    batch 112
+	conjugate error percent: 73.166667
+	vanilla error percent: 6.333333
+	iteration: 0,    performance index: 0.058730,    learning rate: 0.134044
+    batch 113
+	conjugate error percent: 71.333333
+	vanilla error percent: 7.666667
+	iteration: 0,    performance index: 0.065313,    learning rate: 0.065924
+    batch 114
+	conjugate error percent: 75.166667
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.059031,    learning rate: 0.000000
+    batch 115
+	conjugate error percent: 71.000000
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.059064,    learning rate: 0.016363
+    batch 116
+	conjugate error percent: 70.666667
+	vanilla error percent: 8.500000
+	iteration: 0,    performance index: 0.062233,    learning rate: 0.040729
+    batch 117
+	conjugate error percent: 74.000000
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.061670,    learning rate: 0.018016
+    batch 118
+	conjugate error percent: 71.666667
+	vanilla error percent: 5.833333
+	iteration: 0,    performance index: 0.056096,    learning rate: 0.161599
+    batch 119
+	conjugate error percent: 71.833333
+	vanilla error percent: 8.000000
+	iteration: 0,    performance index: 0.061145,    learning rate: 0.104838
+    batch 120
+	conjugate error percent: 72.166667
+	vanilla error percent: 8.666667
+	iteration: 0,    performance index: 0.057945,    learning rate: 0.050657
+    batch 121
+	conjugate error percent: 71.000000
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.062766,    learning rate: 0.030029
+    batch 122
+	conjugate error percent: 73.166667
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.058958,    learning rate: 0.000000
+    batch 123
+	conjugate error percent: 68.666667
+	vanilla error percent: 5.000000
+	iteration: 0,    performance index: 0.058041,    learning rate: 0.009335
+    batch 124
+	conjugate error percent: 72.333333
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.057149,    learning rate: 0.015972
+    batch 125
+	conjugate error percent: 70.000000
+	vanilla error percent: 3.500000
+	iteration: 0,    performance index: 0.056279,    learning rate: 0.000000
+    batch 126
+	conjugate error percent: 68.166667
+	vanilla error percent: 6.166667
+	iteration: 0,    performance index: 0.059614,    learning rate: 0.018646
+    batch 127
+	conjugate error percent: 73.000000
+	vanilla error percent: 6.666667
+	iteration: 0,    performance index: 0.051355,    learning rate: 0.010259
+    batch 128
+	conjugate error percent: 66.666667
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.052491,    learning rate: 0.035860
+    batch 129
+	conjugate error percent: 68.333333
+	vanilla error percent: 7.000000
+	iteration: 0,    performance index: 0.057533,    learning rate: 0.000000
+    batch 130
+	conjugate error percent: 72.166667
+	vanilla error percent: 7.500000
+	iteration: 0,    performance index: 0.061824,    learning rate: 0.217379
+    batch 131
+	conjugate error percent: 71.500000
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.057692,    learning rate: 0.109891
+    batch 132
+	conjugate error percent: 70.666667
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.053191,    learning rate: 0.000000
+    batch 133
+	conjugate error percent: 65.333333
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.058410,    learning rate: 0.000000
+    batch 134
+	conjugate error percent: 69.833333
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.049273,    learning rate: 0.000000
+    batch 135
+	conjugate error percent: 65.166667
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.055852,    learning rate: 0.129730
+    batch 136
+	conjugate error percent: 66.333333
+	vanilla error percent: 6.000000
+	iteration: 0,    performance index: 0.057157,    learning rate: 0.000000
+    batch 137
+	conjugate error percent: 67.166667
+	vanilla error percent: 4.333333
+	iteration: 0,    performance index: 0.059726,    learning rate: 0.014199
+    batch 138
+	conjugate error percent: 69.000000
+	vanilla error percent: 5.833333
+	iteration: 0,    performance index: 0.059905,    learning rate: 0.046753
+    batch 139
+	conjugate error percent: 68.833333
+	vanilla error percent: 5.166667
+	iteration: 0,    performance index: 0.057958,    learning rate: 0.000000
+    batch 140
+	conjugate error percent: 69.666667
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.058439,    learning rate: 0.015341
+    batch 141
+	conjugate error percent: 71.333333
+	vanilla error percent: 6.000000
+	iteration: 0,    performance index: 0.058264,    learning rate: 0.123344
+    batch 142
+	conjugate error percent: 68.500000
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.055778,    learning rate: 0.000000
+    batch 143
+	conjugate error percent: 68.500000
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.056687,    learning rate: 0.089850
+    batch 144
+	conjugate error percent: 69.500000
+	vanilla error percent: 4.833333
+	iteration: 0,    performance index: 0.058450,    learning rate: 0.116275
+    batch 145
+	conjugate error percent: 66.666667
+	vanilla error percent: 5.833333
+	iteration: 0,    performance index: 0.049505,    learning rate: 0.000000
+    batch 146
+	conjugate error percent: 62.333333
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.061356,    learning rate: 0.000000
+    batch 147
+	conjugate error percent: 68.333333
+	vanilla error percent: 6.333333
+	iteration: 0,    performance index: 0.056840,    learning rate: 0.000000
+    batch 148
+	conjugate error percent: 67.500000
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.056979,    learning rate: 0.043644
+    batch 149
+	conjugate error percent: 67.000000
+	vanilla error percent: 7.666667
+	iteration: 0,    performance index: 0.051573,    learning rate: 0.016873
+    batch 150
+	conjugate error percent: 64.500000
+	vanilla error percent: 7.500000
+	iteration: 0,    performance index: 0.059059,    learning rate: 0.000000
+    batch 151
+	conjugate error percent: 68.666667
+	vanilla error percent: 2.833333
+	iteration: 0,    performance index: 0.052022,    learning rate: 0.114941
+    batch 152
+	conjugate error percent: 65.333333
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.065517,    learning rate: 0.035619
+    batch 153
+	conjugate error percent: 70.833333
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.055486,    learning rate: 0.038052
+    batch 154
+	conjugate error percent: 68.000000
+	vanilla error percent: 8.833333
+	iteration: 0,    performance index: 0.055269,    learning rate: 0.000000
+    batch 155
+	conjugate error percent: 64.000000
+	vanilla error percent: 6.000000
+	iteration: 0,    performance index: 0.052362,    learning rate: 0.000000
+    batch 156
+	conjugate error percent: 65.666667
+	vanilla error percent: 6.500000
+	iteration: 0,    performance index: 0.057256,    learning rate: 0.010416
+    batch 157
+	conjugate error percent: 67.166667
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.051499,    learning rate: 0.000000
+    batch 158
+	conjugate error percent: 63.833333
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.046158,    learning rate: 0.029007
+    batch 159
+	conjugate error percent: 61.833333
+	vanilla error percent: 9.166667
+	iteration: 0,    performance index: 0.061573,    learning rate: 0.068451
+    batch 160
+	conjugate error percent: 70.166667
+	vanilla error percent: 5.833333
+	iteration: 0,    performance index: 0.054202,    learning rate: 0.086543
+    batch 161
+	conjugate error percent: 63.833333
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.050468,    learning rate: 0.015536
+    batch 162
+	conjugate error percent: 63.000000
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.051692,    learning rate: 0.149789
+    batch 163
+	conjugate error percent: 63.833333
+	vanilla error percent: 3.000000
+	iteration: 0,    performance index: 0.047314,    learning rate: 0.000000
+    batch 164
+	conjugate error percent: 64.833333
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.060255,    learning rate: 0.000000
+    batch 165
+	conjugate error percent: 66.833333
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.050311,    learning rate: 0.000000
+    batch 166
+	conjugate error percent: 65.000000
+	vanilla error percent: 5.166667
+	iteration: 0,    performance index: 0.048762,    learning rate: 0.104839
+    batch 167
+	conjugate error percent: 63.666667
+	vanilla error percent: 5.833333
+	iteration: 0,    performance index: 0.050693,    learning rate: 0.252735
+    batch 168
+	conjugate error percent: 62.333333
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.044737,    learning rate: 0.000000
+    batch 169
+	conjugate error percent: 61.166667
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.051955,    learning rate: 0.000000
+    batch 170
+	conjugate error percent: 66.000000
+	vanilla error percent: 4.833333
+	iteration: 0,    performance index: 0.057365,    learning rate: 0.022148
+    batch 171
+	conjugate error percent: 66.833333
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.052959,    learning rate: 0.000000
+    batch 172
+	conjugate error percent: 66.000000
+	vanilla error percent: 5.166667
+	iteration: 0,    performance index: 0.052102,    learning rate: 0.126236
+    batch 173
+	conjugate error percent: 63.500000
+	vanilla error percent: 6.166667
+	iteration: 0,    performance index: 0.053622,    learning rate: 0.203696
+    batch 174
+	conjugate error percent: 65.000000
+	vanilla error percent: 5.000000
+	iteration: 0,    performance index: 0.052981,    learning rate: 0.000000
+    batch 175
+	conjugate error percent: 64.333333
+	vanilla error percent: 8.333333
+	iteration: 0,    performance index: 0.054202,    learning rate: 0.051620
+    batch 176
+	conjugate error percent: 62.833333
+	vanilla error percent: 5.000000
+	iteration: 0,    performance index: 0.051934,    learning rate: 0.000000
+    batch 177
+	conjugate error percent: 63.666667
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.057055,    learning rate: 0.023026
+    batch 178
+	conjugate error percent: 64.666667
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.047821,    learning rate: 0.016993
+    batch 179
+	conjugate error percent: 60.833333
+	vanilla error percent: 5.166667
+	iteration: 0,    performance index: 0.054700,    learning rate: 0.024530
+    batch 180
+	conjugate error percent: 64.000000
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.052743,    learning rate: 0.095104
+    batch 181
+	conjugate error percent: 63.833333
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.061698,    learning rate: 0.053962
+    batch 182
+	conjugate error percent: 66.000000
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.049220,    learning rate: 0.040339
+    batch 183
+	conjugate error percent: 60.500000
+	vanilla error percent: 6.166667
+	iteration: 0,    performance index: 0.048914,    learning rate: 0.000000
+    batch 184
+	conjugate error percent: 61.666667
+	vanilla error percent: 4.333333
+	iteration: 0,    performance index: 0.057610,    learning rate: 0.102909
+    batch 185
+	conjugate error percent: 64.000000
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.061173,    learning rate: 0.089850
+    batch 186
+	conjugate error percent: 65.833333
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.053411,    learning rate: 0.000000
+    batch 187
+	conjugate error percent: 63.833333
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.055994,    learning rate: 0.055409
+    batch 188
+	conjugate error percent: 66.166667
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.052067,    learning rate: 0.148371
+    batch 189
+	conjugate error percent: 63.500000
+	vanilla error percent: 6.166667
+	iteration: 0,    performance index: 0.053789,    learning rate: 0.056970
+    batch 190
+	conjugate error percent: 62.166667
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.059031,    learning rate: 0.316472
+    batch 191
+	conjugate error percent: 66.666667
+	vanilla error percent: 4.833333
+	iteration: 0,    performance index: 0.060981,    learning rate: 1.023000
+    batch 192
+	conjugate error percent: 70.166667
+	vanilla error percent: 6.000000
+	iteration: 0,    performance index: 0.045047,    learning rate: 0.308749
+    batch 193
+	conjugate error percent: 65.333333
+	vanilla error percent: 4.333333
+	iteration: 0,    performance index: 0.044091,    learning rate: 0.000000
+    batch 194
+	conjugate error percent: 66.500000
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.060064,    learning rate: 0.000000
+    batch 195
+	conjugate error percent: 70.166667
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.049251,    learning rate: 0.012546
+    batch 196
+	conjugate error percent: 67.833333
+	vanilla error percent: 7.000000
+	iteration: 0,    performance index: 0.045568,    learning rate: 0.005006
+    batch 197
+	conjugate error percent: 67.500000
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.048421,    learning rate: 0.000000
+    batch 198
+	conjugate error percent: 67.833333
+	vanilla error percent: 7.000000
+	iteration: 0,    performance index: 0.045489,    learning rate: 0.000000
+    batch 199
+	conjugate error percent: 68.166667
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.046125,    learning rate: 0.031923
+    batch 200
+	conjugate error percent: 68.833333
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.055239,    learning rate: 0.030029
+    batch 201
+	conjugate error percent: 70.666667
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.047444,    learning rate: 0.000000
+    batch 202
+	conjugate error percent: 69.500000
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.054427,    learning rate: 0.009079
+    batch 203
+	conjugate error percent: 65.500000
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.053171,    learning rate: 0.170823
+    batch 204
+	conjugate error percent: 59.166667
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.044118,    learning rate: 0.165546
+    batch 205
+	conjugate error percent: 57.500000
+	vanilla error percent: 3.333333
+	iteration: 0,    performance index: 0.048992,    learning rate: 0.321254
+    batch 206
+	conjugate error percent: 59.333333
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.037697,    learning rate: 0.176979
+    batch 207
+	conjugate error percent: 52.000000
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.042275,    learning rate: 0.338159
+    batch 208
+	conjugate error percent: 55.500000
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.045078,    learning rate: 0.093635
+    batch 209
+	conjugate error percent: 54.833333
+	vanilla error percent: 5.000000
+	iteration: 0,    performance index: 0.038376,    learning rate: 0.093934
+    batch 210
+	conjugate error percent: 54.666667
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.040301,    learning rate: 0.000000
+    batch 211
+	conjugate error percent: 54.333333
+	vanilla error percent: 2.833333
+	iteration: 0,    performance index: 0.041070,    learning rate: 0.241267
+    batch 212
+	conjugate error percent: 53.500000
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.047675,    learning rate: 0.164582
+    batch 213
+	conjugate error percent: 55.833333
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.041709,    learning rate: 0.049095
+    batch 214
+	conjugate error percent: 54.666667
+	vanilla error percent: 3.333333
+	iteration: 0,    performance index: 0.038141,    learning rate: 0.648702
+    batch 215
+	conjugate error percent: 53.333333
+	vanilla error percent: 3.333333
+	iteration: 0,    performance index: 0.034717,    learning rate: 0.141023
+    batch 216
+	conjugate error percent: 51.333333
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.047977,    learning rate: 0.000000
+    batch 217
+	conjugate error percent: 56.833333
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.040200,    learning rate: 0.097995
+    batch 218
+	conjugate error percent: 52.500000
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.033698,    learning rate: 0.022148
+    batch 219
+	conjugate error percent: 49.666667
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.041846,    learning rate: 0.510336
+    batch 220
+	conjugate error percent: 51.833333
+	vanilla error percent: 4.833333
+	iteration: 0,    performance index: 0.046217,    learning rate: 0.000000
+    batch 221
+	conjugate error percent: 57.333333
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.047685,    learning rate: 0.000000
+    batch 222
+	conjugate error percent: 56.166667
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.036440,    learning rate: 0.000000
+    batch 223
+	conjugate error percent: 52.166667
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.042204,    learning rate: 0.449151
+    batch 224
+	conjugate error percent: 54.333333
+	vanilla error percent: 3.500000
+	iteration: 0,    performance index: 0.038506,    learning rate: 0.097855
+    batch 225
+	conjugate error percent: 53.500000
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.034905,    learning rate: 0.000000
+    batch 226
+	conjugate error percent: 49.333333
+	vanilla error percent: 3.500000
+	iteration: 0,    performance index: 0.037494,    learning rate: 0.000000
+    batch 227
+	conjugate error percent: 50.500000
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.039615,    learning rate: 0.000000
+    batch 228
+	conjugate error percent: 51.833333
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.045893,    learning rate: 0.026091
+    batch 229
+	conjugate error percent: 55.166667
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.042223,    learning rate: 0.000000
+    batch 230
+	conjugate error percent: 51.833333
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.041622,    learning rate: 0.023026
+    batch 231
+	conjugate error percent: 55.166667
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.039417,    learning rate: 0.000000
+    batch 232
+	conjugate error percent: 52.333333
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.040613,    learning rate: 0.078368
+    batch 233
+	conjugate error percent: 50.833333
+	vanilla error percent: 4.333333
+	iteration: 0,    performance index: 0.048164,    learning rate: 0.000000
+    batch 234
+	conjugate error percent: 59.333333
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.041845,    learning rate: 0.000000
+    batch 235
+	conjugate error percent: 52.000000
+	vanilla error percent: 5.000000
+	iteration: 0,    performance index: 0.044100,    learning rate: 0.000000
+    batch 236
+	conjugate error percent: 51.666667
+	vanilla error percent: 4.333333
+	iteration: 0,    performance index: 0.041036,    learning rate: 0.207099
+    batch 237
+	conjugate error percent: 52.166667
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.037455,    learning rate: 0.000000
+    batch 238
+	conjugate error percent: 50.833333
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.036719,    learning rate: 0.000000
+    batch 239
+	conjugate error percent: 49.500000
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.047637,    learning rate: 0.093154
+    batch 240
+	conjugate error percent: 53.333333
+	vanilla error percent: 3.000000
+	iteration: 0,    performance index: 0.043787,    learning rate: 0.000000
+    batch 241
+	conjugate error percent: 52.166667
+	vanilla error percent: 2.500000
+	iteration: 0,    performance index: 0.048683,    learning rate: 0.022538
+    batch 242
+	conjugate error percent: 54.166667
+	vanilla error percent: 2.166667
+	iteration: 0,    performance index: 0.042416,    learning rate: 0.000000
+    batch 243
+	conjugate error percent: 51.500000
+	vanilla error percent: 7.166667
+	iteration: 0,    performance index: 0.042296,    learning rate: 0.003626
+    batch 244
+	conjugate error percent: 52.500000
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.047412,    learning rate: 0.121414
+    batch 245
+	conjugate error percent: 54.166667
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.036660,    learning rate: 0.065443
+    batch 246
+	conjugate error percent: 52.333333
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.035424,    learning rate: 0.024048
+    batch 247
+	conjugate error percent: 50.666667
+	vanilla error percent: 3.333333
+	iteration: 0,    performance index: 0.040812,    learning rate: 0.000000
+    batch 248
+	conjugate error percent: 52.333333
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.044718,    learning rate: 0.000000
+    batch 249
+	conjugate error percent: 55.333333
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.035390,    learning rate: 0.270100
+    batch 250
+	conjugate error percent: 50.166667
+	vanilla error percent: 4.500000
+	iteration: 0,    performance index: 0.050480,    learning rate: 0.000000
+    batch 251
+	conjugate error percent: 54.333333
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.045379,    learning rate: 0.000000
+    batch 252
+	conjugate error percent: 56.333333
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.043209,    learning rate: 0.197272
+    batch 253
+	conjugate error percent: 51.666667
+	vanilla error percent: 3.333333
+	iteration: 0,    performance index: 0.040005,    learning rate: 0.000000
+    batch 254
+	conjugate error percent: 51.833333
+	vanilla error percent: 2.833333
+	iteration: 0,    performance index: 0.041350,    learning rate: 0.000000
+    batch 255
+	conjugate error percent: 53.000000
+	vanilla error percent: 2.333333
+	iteration: 0,    performance index: 0.039192,    learning rate: 0.000000
+    batch 256
+	conjugate error percent: 50.000000
+	vanilla error percent: 2.333333
+	iteration: 0,    performance index: 0.050296,    learning rate: 0.141757
+    batch 257
+	conjugate error percent: 53.333333
+	vanilla error percent: 2.833333
+	iteration: 0,    performance index: 0.042931,    learning rate: 0.380669
+    batch 258
+	conjugate error percent: 49.166667
+	vanilla error percent: 3.500000
+	iteration: 0,    performance index: 0.041939,    learning rate: 0.000000
+    batch 259
+	conjugate error percent: 49.833333
+	vanilla error percent: 1.666667
+	iteration: 0,    performance index: 0.045166,    learning rate: 0.000000
+    batch 260
+	conjugate error percent: 50.666667
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.033092,    learning rate: 0.523175
+    batch 261
+	conjugate error percent: 44.833333
+	vanilla error percent: 3.000000
+	iteration: 0,    performance index: 0.038220,    learning rate: 0.371757
+    batch 262
+	conjugate error percent: 49.333333
+	vanilla error percent: 5.000000
+	iteration: 0,    performance index: 0.037870,    learning rate: 0.097488
+    batch 263
+	conjugate error percent: 47.666667
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.037514,    learning rate: 0.000000
+    batch 264
+	conjugate error percent: 45.833333
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.038857,    learning rate: 0.000000
+    batch 265
+	conjugate error percent: 49.000000
+	vanilla error percent: 3.500000
+	iteration: 0,    performance index: 0.045328,    learning rate: 0.027205
+    batch 266
+	conjugate error percent: 49.500000
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.038066,    learning rate: 0.163616
+    batch 267
+	conjugate error percent: 47.333333
+	vanilla error percent: 2.000000
+	iteration: 0,    performance index: 0.048284,    learning rate: 0.000000
+    batch 268
+	conjugate error percent: 52.166667
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.040517,    learning rate: 0.072720
+    batch 269
+	conjugate error percent: 50.666667
+	vanilla error percent: 3.166667
+	iteration: 0,    performance index: 0.046182,    learning rate: 0.173489
+    batch 270
+	conjugate error percent: 49.166667
+	vanilla error percent: 4.666667
+	iteration: 0,    performance index: 0.040957,    learning rate: 0.038293
+    batch 271
+	conjugate error percent: 47.666667
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.040280,    learning rate: 0.031050
+    batch 272
+	conjugate error percent: 47.000000
+	vanilla error percent: 5.666667
+	iteration: 0,    performance index: 0.043708,    learning rate: 0.274418
+    batch 273
+	conjugate error percent: 52.666667
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.041524,    learning rate: 0.000000
+    batch 274
+	conjugate error percent: 49.166667
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.031169,    learning rate: 0.240531
+    batch 275
+	conjugate error percent: 44.333333
+	vanilla error percent: 5.500000
+	iteration: 0,    performance index: 0.046603,    learning rate: 1.023000
+    batch 276
+	conjugate error percent: 53.333333
+	vanilla error percent: 3.333333
+	iteration: 0,    performance index: 0.041799,    learning rate: 0.000000
+    batch 277
+	conjugate error percent: 48.833333
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.040343,    learning rate: 0.000000
+    batch 278
+	conjugate error percent: 49.500000
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.049402,    learning rate: 0.000000
+    batch 279
+	conjugate error percent: 55.000000
+	vanilla error percent: 3.500000
+	iteration: 0,    performance index: 0.039137,    learning rate: 0.025942
+    batch 280
+	conjugate error percent: 50.333333
+	vanilla error percent: 3.000000
+	iteration: 0,    performance index: 0.039894,    learning rate: 0.093154
+    batch 281
+	conjugate error percent: 52.000000
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.038803,    learning rate: 0.494897
+    batch 282
+	conjugate error percent: 49.333333
+	vanilla error percent: 2.833333
+	iteration: 0,    performance index: 0.038242,    learning rate: 0.110257
+    batch 283
+	conjugate error percent: 51.666667
+	vanilla error percent: 5.333333
+	iteration: 0,    performance index: 0.036723,    learning rate: 0.066108
+    batch 284
+	conjugate error percent: 49.000000
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.035929,    learning rate: 1.023000
+    batch 285
+	conjugate error percent: 46.333333
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.046445,    learning rate: 0.000000
+    batch 286
+	conjugate error percent: 52.166667
+	vanilla error percent: 3.833333
+	iteration: 0,    performance index: 0.040787,    learning rate: 0.000000
+    batch 287
+	conjugate error percent: 50.166667
+	vanilla error percent: 2.166667
+	iteration: 0,    performance index: 0.038060,    learning rate: 0.000000
+    batch 288
+	conjugate error percent: 49.666667
+	vanilla error percent: 4.833333
+	iteration: 0,    performance index: 0.041322,    learning rate: 0.340820
+    batch 289
+	conjugate error percent: 49.500000
+	vanilla error percent: 4.166667
+	iteration: 0,    performance index: 0.036120,    learning rate: 0.000000
+    batch 290
+	conjugate error percent: 46.666667
+	vanilla error percent: 2.666667
+	iteration: 0,    performance index: 0.046027,    learning rate: 0.000000
+    batch 291
+	conjugate error percent: 50.166667
+	vanilla error percent: 3.000000
+	iteration: 0,    performance index: 0.048299,    learning rate: 0.360746
+    batch 292
+	conjugate error percent: 53.833333
+	vanilla error percent: 2.666667
+	iteration: 0,    performance index: 0.043702,    learning rate: 0.000000
+    batch 293
+	conjugate error percent: 50.166667
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.045721,    learning rate: 0.000000
+    batch 294
+	conjugate error percent: 52.833333
+	vanilla error percent: 2.000000
+	iteration: 0,    performance index: 0.039552,    learning rate: 0.105435
+    batch 295
+	conjugate error percent: 48.666667
+	vanilla error percent: 3.000000
+	iteration: 0,    performance index: 0.044160,    learning rate: 0.000000
+    batch 296
+	conjugate error percent: 49.666667
+	vanilla error percent: 4.000000
+	iteration: 0,    performance index: 0.039762,    learning rate: 0.571160
+    batch 297
+	conjugate error percent: 48.333333
+	vanilla error percent: 2.666667
+	iteration: 0,    performance index: 0.047581,    learning rate: 1.023000
+    batch 298
+	conjugate error percent: 53.333333
+	vanilla error percent: 2.666667
+	iteration: 0,    performance index: 0.043772,    learning rate: 0.426430
+    batch 299
+	conjugate error percent: 50.333333
+	vanilla error percent: 3.666667
+	iteration: 0,    performance index: 0.039156,    learning rate: 0.059313
+    batch 300
+	conjugate error percent: 47.000000
+	vanilla error percent: 2.000000
+Load Test Set :
+    loading test images
+    loading test labels
+Run Test Set Conjugate Gradient:
+    percent error: 47.000000
+Run Test Set Steepest Descent:
+    percent error: 2.000000
+run complete

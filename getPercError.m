@@ -1,4 +1,4 @@
-function err = getPercError(f,P,T)
+ function err = getPercError(f,P,T)
 A = round(f(P));
 errCount = 0;
 for i = 1:size(P,2)

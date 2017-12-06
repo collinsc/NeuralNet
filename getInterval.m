@@ -1,5 +1,5 @@
 function [a,b]  = getInterval(f,a,ep)
-max_itr = 20;
+max_itr = 10;
 max_learn = 3;
 f_a = f(a);
 int = ep;

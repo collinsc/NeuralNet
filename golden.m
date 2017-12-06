@@ -1,6 +1,6 @@
 function out = golden(f,a, b)
 tau = 0.618;
-tol = 0.005;
+tol = 0.0005;
 c = a + (1 - tau)*(b - a);
 f_c = f(c);
 d = b - (1 - tau)*(b - a);
